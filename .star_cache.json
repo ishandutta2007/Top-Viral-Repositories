@@ -1033,5 +1033,50 @@
     "stars": 479,
     "timestamp": 1787542128.4878519,
     "fetched_at": "2026-08-24T03:28:48Z"
+  },
+  "joonspk-research/generative_agents": {
+    "stars": 21971,
+    "timestamp": 1787542186.3679516,
+    "fetched_at": "2026-08-24T03:29:46Z"
+  },
+  "openai/swarm": {
+    "stars": 21918,
+    "timestamp": 1787542186.899336,
+    "fetched_at": "2026-08-24T03:29:46Z"
+  },
+  "yoheinakajima/babyagi": {
+    "stars": 22355,
+    "timestamp": 1787542187.5247605,
+    "fetched_at": "2026-08-24T03:29:47Z"
+  },
+  "OpenBMB/AgentVerse": {
+    "stars": 5113,
+    "timestamp": 1787542188.082207,
+    "fetched_at": "2026-08-24T03:29:48Z"
+  },
+  "modelscope/modelscope-agent": {
+    "stars": 4368,
+    "timestamp": 1787542188.6903725,
+    "fetched_at": "2026-08-24T03:29:48Z"
+  },
+  "composable-models/llm_debate": {
+    "stars": 3,
+    "timestamp": 1787542189.778616,
+    "fetched_at": "2026-08-24T03:29:49Z"
+  },
+  "SALT-NLP/DyLAN": {
+    "stars": 213,
+    "timestamp": 1787542190.8407772,
+    "fetched_at": "2026-08-24T03:29:50Z"
+  },
+  "metauto-ai/GPTSwarm": {
+    "stars": 1037,
+    "timestamp": 1787542334.054295,
+    "fetched_at": "2026-08-24T03:32:14Z"
+  },
+  "open-compass/opencompass": {
+    "stars": 7331,
+    "timestamp": 1787542334.6426866,
+    "fetched_at": "2026-08-24T03:32:14Z"
   }
 }

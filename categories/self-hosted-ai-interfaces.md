@@ -35,7 +35,7 @@ Top 20 open-source conversational web clients, personal workspaces, and multi-mo
 | 17 | **[Web-LLM](https://github.com/mlc-ai/web-llm)** [![GitHub Repo stars](https://img.shields.io/github/stars/mlc-ai/web-llm?style=social&color=white)](https://github.com/mlc-ai/web-llm/stargazers) | In-Browser WebGPU LLM Engine | High-performance in-browser LLM inference running 100% locally on client WebGPU. |
 | 18 | **[Bionic-GPT UI](https://github.com/bionic-gpt/bionic-gpt)** [![GitHub Repo stars](https://img.shields.io/github/stars/bionic-gpt/bionic-gpt?style=social&color=white)](https://github.com/bionic-gpt/bionic-gpt/stargazers) | Enterprise Team Chat | Self-hosted team chat interface with strict role-based access control and model sandboxing. |
 | 19 | **[MindMac](https://github.com/mindmacapp/mindmac)** [![GitHub Repo stars](https://img.shields.io/github/stars/mindmacapp/mindmac?style=social&color=white)](https://github.com/mindmacapp/mindmac/stargazers) | Native Mac Chat Assistant | Native macOS client for local Ollama models and cloud APIs with keyboard shortcuts. |
-| 20 | **[GPTSwarm](https://github.com/isidentical/gptswarm)** [![GitHub Repo stars](https://img.shields.io/github/stars/isidentical/gptswarm?style=social&color=white)](https://github.com/isidentical/gptswarm/stargazers) | Swarm Chat Interface | Experimental collaborative UI for orchestrating swarms of communicative agents. |
+| 20 | **[GPTSwarm](https://github.com/metauto-ai/GPTSwarm)** [![GitHub Repo stars](https://img.shields.io/github/stars/metauto-ai/GPTSwarm?style=social&color=white)](https://github.com/metauto-ai/GPTSwarm/stargazers) | Swarm Chat Interface | Experimental collaborative UI for orchestrating swarms of communicative agents. |
 
 ---
 
