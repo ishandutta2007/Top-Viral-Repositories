@@ -1233,5 +1233,100 @@
     "stars": 1948,
     "timestamp": 1787543082.7528386,
     "fetched_at": "2026-08-24T03:44:42Z"
+  },
+  "aquasecurity/trivy": {
+    "stars": 37580,
+    "timestamp": 1787543119.744025,
+    "fetched_at": "2026-08-24T03:45:19Z"
+  },
+  "semgrep/semgrep": {
+    "stars": 16369,
+    "timestamp": 1787543120.3456426,
+    "fetched_at": "2026-08-24T03:45:20Z"
+  },
+  "anchore/grype": {
+    "stars": 12778,
+    "timestamp": 1787543120.9847534,
+    "fetched_at": "2026-08-24T03:45:20Z"
+  },
+  "google/osv-scanner": {
+    "stars": 10911,
+    "timestamp": 1787543121.5746708,
+    "fetched_at": "2026-08-24T03:45:21Z"
+  },
+  "anchore/syft": {
+    "stars": 9450,
+    "timestamp": 1787543122.1997647,
+    "fetched_at": "2026-08-24T03:45:22Z"
+  },
+  "bridgecrewio/checkov": {
+    "stars": 8970,
+    "timestamp": 1787543122.8034313,
+    "fetched_at": "2026-08-24T03:45:22Z"
+  },
+  "gitleaks/gitleaks": {
+    "stars": 28926,
+    "timestamp": 1787543123.4588327,
+    "fetched_at": "2026-08-24T03:45:23Z"
+  },
+  "trufflesecurity/trufflehog": {
+    "stars": 27566,
+    "timestamp": 1787543124.0524392,
+    "fetched_at": "2026-08-24T03:45:24Z"
+  },
+  "PyCQA/bandit": {
+    "stars": 8235,
+    "timestamp": 1787543124.6666346,
+    "fetched_at": "2026-08-24T03:45:24Z"
+  },
+  "pyupio/safety": {
+    "stars": 1995,
+    "timestamp": 1787543125.2889414,
+    "fetched_at": "2026-08-24T03:45:25Z"
+  },
+  "jeremylong/DependencyCheck": {
+    "stars": 54,
+    "timestamp": 1787543125.9028087,
+    "fetched_at": "2026-08-24T03:45:25Z"
+  },
+  "pypa/pip-audit": {
+    "stars": 1351,
+    "timestamp": 1787543126.4567854,
+    "fetched_at": "2026-08-24T03:45:26Z"
+  },
+  "ossf/scorecard": {
+    "stars": 5649,
+    "timestamp": 1787543126.9818823,
+    "fetched_at": "2026-08-24T03:45:26Z"
+  },
+  "slsa-framework/slsa-verifier": {
+    "stars": 343,
+    "timestamp": 1787543127.5900238,
+    "fetched_at": "2026-08-24T03:45:27Z"
+  },
+  "DataDog/guarddog": {
+    "stars": 1190,
+    "timestamp": 1787543128.2029288,
+    "fetched_at": "2026-08-24T03:45:28Z"
+  },
+  "rustsec/rustsec": {
+    "stars": 1939,
+    "timestamp": 1787543128.8392987,
+    "fetched_at": "2026-08-24T03:45:28Z"
+  },
+  "dependabot/dependabot-core": {
+    "stars": 5734,
+    "timestamp": 1787543129.431736,
+    "fetched_at": "2026-08-24T03:45:29Z"
+  },
+  "snyk/snyk": {
+    "stars": 5644,
+    "timestamp": 1787543130.094436,
+    "fetched_at": "2026-08-24T03:45:30Z"
+  },
+  "naugtur/npm-audit-resolver": {
+    "stars": 132,
+    "timestamp": 1787543131.2551062,
+    "fetched_at": "2026-08-24T03:45:31Z"
   }
 }
