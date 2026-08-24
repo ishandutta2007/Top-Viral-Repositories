@@ -568,5 +568,90 @@
     "stars": 3847,
     "timestamp": 1787538562.5475922,
     "fetched_at": "2026-08-24T02:29:22Z"
+  },
+  "sgl-project/sglang": {
+    "stars": 32316,
+    "timestamp": 1787538669.470922,
+    "fetched_at": "2026-08-24T02:31:09Z"
+  },
+  "huggingface/text-generation-inference": {
+    "stars": 10887,
+    "timestamp": 1787538670.4434295,
+    "fetched_at": "2026-08-24T02:31:10Z"
+  },
+  "NVIDIA/TensorRT-LLM": {
+    "stars": 14453,
+    "timestamp": 1787538671.0341632,
+    "fetched_at": "2026-08-24T02:31:11Z"
+  },
+  "InternLM/lmdeploy": {
+    "stars": 8015,
+    "timestamp": 1787538671.6735568,
+    "fetched_at": "2026-08-24T02:31:11Z"
+  },
+  "triton-inference-server/server": {
+    "stars": 10933,
+    "timestamp": 1787538672.2986548,
+    "fetched_at": "2026-08-24T02:31:12Z"
+  },
+  "PygmalionAI/aphrodite-engine": {
+    "stars": 1842,
+    "timestamp": 1787538672.982045,
+    "fetched_at": "2026-08-24T02:31:12Z"
+  },
+  "mlc-ai/mlc-llm": {
+    "stars": 23085,
+    "timestamp": 1787538674.1515937,
+    "fetched_at": "2026-08-24T02:31:14Z"
+  },
+  "microsoft/DeepSpeed-MII": {
+    "stars": 2111,
+    "timestamp": 1787538674.7283485,
+    "fetched_at": "2026-08-24T02:31:14Z"
+  },
+  "ModelTC/lightllm": {
+    "stars": 4234,
+    "timestamp": 1787538675.8683996,
+    "fetched_at": "2026-08-24T02:31:15Z"
+  },
+  "bentoml/OpenLLM": {
+    "stars": 12509,
+    "timestamp": 1787538677.0043528,
+    "fetched_at": "2026-08-24T02:31:17Z"
+  },
+  "kserve/kserve": {
+    "stars": 5819,
+    "timestamp": 1787538677.6295528,
+    "fetched_at": "2026-08-24T02:31:17Z"
+  },
+  "ray-project/ray": {
+    "stars": 43587,
+    "timestamp": 1787538678.2582185,
+    "fetched_at": "2026-08-24T02:31:18Z"
+  },
+  "xorbitsai/inference": {
+    "stars": 9510,
+    "timestamp": 1787538678.9063756,
+    "fetched_at": "2026-08-24T02:31:18Z"
+  },
+  "turboderp/exllamav2": {
+    "stars": 4611,
+    "timestamp": 1787538679.4957101,
+    "fetched_at": "2026-08-24T02:31:19Z"
+  },
+  "kvcache-ai/Mooncake": {
+    "stars": 6356,
+    "timestamp": 1787538680.642988,
+    "fetched_at": "2026-08-24T02:31:20Z"
+  },
+  "ggerganov/llama.cpp": {
+    "stars": 125317,
+    "timestamp": 1787538681.2208967,
+    "fetched_at": "2026-08-24T02:31:21Z"
+  },
+  "LLMServe/DistServe": {
+    "stars": 832,
+    "timestamp": 1787538799.8852773,
+    "fetched_at": "2026-08-24T02:33:19Z"
   }
 }
