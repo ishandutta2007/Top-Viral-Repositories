@@ -263,5 +263,70 @@
     "stars": 2544,
     "timestamp": 1787538053.9101994,
     "fetched_at": "2026-08-24T02:20:53Z"
+  },
+  "zylon-ai/private-gpt": {
+    "stars": 57458,
+    "timestamp": 1787538113.1157525,
+    "fetched_at": "2026-08-24T02:21:53Z"
+  },
+  "quivrHQ/quivr": {
+    "stars": 39418,
+    "timestamp": 1787538113.6820624,
+    "fetched_at": "2026-08-24T02:21:53Z"
+  },
+  "weaviate/Verba": {
+    "stars": 7710,
+    "timestamp": 1787538114.2614553,
+    "fetched_at": "2026-08-24T02:21:54Z"
+  },
+  "mem0ai/mem0": {
+    "stars": 63899,
+    "timestamp": 1787538114.896257,
+    "fetched_at": "2026-08-24T02:21:54Z"
+  },
+  "Cinnamon/kotaemon": {
+    "stars": 25713,
+    "timestamp": 1787538115.5084243,
+    "fetched_at": "2026-08-24T02:21:55Z"
+  },
+  "arc53/DocsGPT": {
+    "stars": 18220,
+    "timestamp": 1787538116.1148555,
+    "fetched_at": "2026-08-24T02:21:56Z"
+  },
+  "eosphoros-ai/DB-GPT": {
+    "stars": 19785,
+    "timestamp": 1787538116.6897657,
+    "fetched_at": "2026-08-24T02:21:56Z"
+  },
+  "chatchat-space/Langchain-Chatchat": {
+    "stars": 38570,
+    "timestamp": 1787538117.2859218,
+    "fetched_at": "2026-08-24T02:21:57Z"
+  },
+  "Marker-Inc-Korea/AutoRAG": {
+    "stars": 5053,
+    "timestamp": 1787538117.8858304,
+    "fetched_at": "2026-08-24T02:21:57Z"
+  },
+  "pashpashpash/vault-ai": {
+    "stars": 3387,
+    "timestamp": 1787538118.475495,
+    "fetched_at": "2026-08-24T02:21:58Z"
+  },
+  "builderio/gpt-crawler": {
+    "stars": 22395,
+    "timestamp": 1787538120.015742,
+    "fetched_at": "2026-08-24T02:22:00Z"
+  },
+  "bionic-gpt/bionic-gpt": {
+    "stars": 2355,
+    "timestamp": 1787538120.5534184,
+    "fetched_at": "2026-08-24T02:22:00Z"
+  },
+  "feyninc/chonkie": {
+    "stars": 4701,
+    "timestamp": 1787538245.2572258,
+    "fetched_at": "2026-08-24T02:24:05Z"
   }
 }
