@@ -778,5 +778,85 @@
     "stars": 4062,
     "timestamp": 1787539955.4595423,
     "fetched_at": "2026-08-24T02:52:35Z"
+  },
+  "browser-use/browser-use": {
+    "stars": 110278,
+    "timestamp": 1787540004.8259985,
+    "fetched_at": "2026-08-24T02:53:24Z"
+  },
+  "spider-rs/spider": {
+    "stars": 2672,
+    "timestamp": 1787540005.428299,
+    "fetched_at": "2026-08-24T02:53:25Z"
+  },
+  "ScrapeGraphAI/Scrapegraph-ai": {
+    "stars": 29847,
+    "timestamp": 1787540006.0378947,
+    "fetched_at": "2026-08-24T02:53:26Z"
+  },
+  "jina-ai/reader": {
+    "stars": 11903,
+    "timestamp": 1787540006.646136,
+    "fetched_at": "2026-08-24T02:53:26Z"
+  },
+  "Skyvern-AI/skyvern": {
+    "stars": 22838,
+    "timestamp": 1787540007.2428803,
+    "fetched_at": "2026-08-24T02:53:27Z"
+  },
+  "browserbase/stagehand": {
+    "stars": 24027,
+    "timestamp": 1787540007.8755634,
+    "fetched_at": "2026-08-24T02:53:27Z"
+  },
+  "assafelovic/gpt-researcher": {
+    "stars": 29110,
+    "timestamp": 1787540008.5349703,
+    "fetched_at": "2026-08-24T02:53:28Z"
+  },
+  "lavague-ai/LaVague": {
+    "stars": 6390,
+    "timestamp": 1787540009.0744991,
+    "fetched_at": "2026-08-24T02:53:29Z"
+  },
+  "InternLM/MindSearch": {
+    "stars": 6917,
+    "timestamp": 1787540009.625356,
+    "fetched_at": "2026-08-24T02:53:29Z"
+  },
+  "scrapy/scrapy": {
+    "stars": 64008,
+    "timestamp": 1787540010.6712587,
+    "fetched_at": "2026-08-24T02:53:30Z"
+  },
+  "ServiceNow/BrowserGym": {
+    "stars": 1327,
+    "timestamp": 1787540011.747649,
+    "fetched_at": "2026-08-24T02:53:31Z"
+  },
+  "web-arena-x/webarena": {
+    "stars": 1585,
+    "timestamp": 1787540012.3530798,
+    "fetched_at": "2026-08-24T02:53:32Z"
+  },
+  "berstend/puppeteer-extra": {
+    "stars": 7395,
+    "timestamp": 1787540012.9494464,
+    "fetched_at": "2026-08-24T02:53:32Z"
+  },
+  "adbar/trafilatura": {
+    "stars": 6691,
+    "timestamp": 1787540013.4964633,
+    "fetched_at": "2026-08-24T02:53:33Z"
+  },
+  "EmergenceAI/Agent-E": {
+    "stars": 1248,
+    "timestamp": 1787541523.5164642,
+    "fetched_at": "2026-08-24T03:18:43Z"
+  },
+  "MinorJerry/WebVoyager": {
+    "stars": 1122,
+    "timestamp": 1787541578.7827892,
+    "fetched_at": "2026-08-24T03:19:38Z"
   }
 }
