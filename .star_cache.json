@@ -653,5 +653,50 @@
     "stars": 832,
     "timestamp": 1787538799.8852773,
     "fetched_at": "2026-08-24T02:33:19Z"
+  },
+  "vercel/ai": {
+    "stars": 26375,
+    "timestamp": 1787538830.660398,
+    "fetched_at": "2026-08-24T02:33:50Z"
+  },
+  "assistant-ui/assistant-ui": {
+    "stars": 11792,
+    "timestamp": 1787538831.2472634,
+    "fetched_at": "2026-08-24T02:33:51Z"
+  },
+  "mckaywrigley/chatbot-ui": {
+    "stars": 33339,
+    "timestamp": 1787538831.9147384,
+    "fetched_at": "2026-08-24T02:33:51Z"
+  },
+  "LAION-AI/Open-Assistant": {
+    "stars": 37406,
+    "timestamp": 1787538832.5064664,
+    "fetched_at": "2026-08-24T02:33:52Z"
+  },
+  "danny-avila/LibreChat": {
+    "stars": 42376,
+    "timestamp": 1787538833.1450367,
+    "fetched_at": "2026-08-24T02:33:53Z"
+  },
+  "ToolJet/ToolJet": {
+    "stars": 40734,
+    "timestamp": 1787538836.7010114,
+    "fetched_at": "2026-08-24T02:33:56Z"
+  },
+  "appsmithorg/appsmith": {
+    "stars": 40730,
+    "timestamp": 1787538837.315098,
+    "fetched_at": "2026-08-24T02:33:57Z"
+  },
+  "marcus/sidecar": {
+    "stars": 1048,
+    "timestamp": 1787539068.5674076,
+    "fetched_at": "2026-08-24T02:37:48Z"
+  },
+  "kleneway/next-ai-starter": {
+    "stars": 515,
+    "timestamp": 1787539288.6952786,
+    "fetched_at": "2026-08-24T02:41:28Z"
   }
 }
