@@ -328,5 +328,70 @@
     "stars": 4701,
     "timestamp": 1787538245.2572258,
     "fetched_at": "2026-08-24T02:24:05Z"
+  },
+  "openai/codex": {
+    "stars": 115449,
+    "timestamp": 1787538320.9930198,
+    "fetched_at": "2026-08-24T02:25:20Z"
+  },
+  "anthropics/claude-code": {
+    "stars": 142770,
+    "timestamp": 1787538321.625915,
+    "fetched_at": "2026-08-24T02:25:21Z"
+  },
+  "TheR1D/shell_gpt": {
+    "stars": 12255,
+    "timestamp": 1787538322.2434416,
+    "fetched_at": "2026-08-24T02:25:22Z"
+  },
+  "CodebuffAI/freebuff": {
+    "stars": 10627,
+    "timestamp": 1787538323.3467963,
+    "fetched_at": "2026-08-24T02:25:23Z"
+  },
+  "sigoden/aichat": {
+    "stars": 10382,
+    "timestamp": 1787538323.9197936,
+    "fetched_at": "2026-08-24T02:25:23Z"
+  },
+  "github/gh-copilot": {
+    "stars": 1151,
+    "timestamp": 1787538324.4863105,
+    "fetched_at": "2026-08-24T02:25:24Z"
+  },
+  "m1guelpf/plz-cli": {
+    "stars": 1596,
+    "timestamp": 1787538325.097859,
+    "fetched_at": "2026-08-24T02:25:25Z"
+  },
+  "bakks/butterfish": {
+    "stars": 545,
+    "timestamp": 1787538325.6735284,
+    "fetched_at": "2026-08-24T02:25:25Z"
+  },
+  "tbckr/sgpt": {
+    "stars": 457,
+    "timestamp": 1787538326.2153478,
+    "fetched_at": "2026-08-24T02:25:26Z"
+  },
+  "insulineru/ai-commit": {
+    "stars": 480,
+    "timestamp": 1787538326.7922125,
+    "fetched_at": "2026-08-24T02:25:26Z"
+  },
+  "jucasoliveira/terminalgpt": {
+    "stars": 1022,
+    "timestamp": 1787538327.3422885,
+    "fetched_at": "2026-08-24T02:25:27Z"
+  },
+  "warpdotdev/Warp": {
+    "stars": 64473,
+    "timestamp": 1787538327.9059687,
+    "fetched_at": "2026-08-24T02:25:27Z"
+  },
+  "git-ai-project/git-ai": {
+    "stars": 2493,
+    "timestamp": 1787538483.96022,
+    "fetched_at": "2026-08-24T02:28:03Z"
   }
 }
