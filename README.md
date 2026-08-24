@@ -167,8 +167,16 @@ Use the included [`sort_tables.py`](sort_tables.py) script to automatically fetc
   python sort_tables.py categories/*.md
   ```
 
+- **Force fresh fetch from GitHub API (bypass 24h cache)**:
+  ```bash
+  python sort_tables.py --refresh
+  ```
+
+> [!NOTE]
+> **24-Hour Local Cache**: Star counts are cached in `.star_cache.json` for 24 hours to minimize API calls and avoid GitHub rate limits. If data was fetched within the last 24 hours, the local cache will be used automatically.
+
 > [!TIP]
-> **GitHub API Rate Limits**: To avoid unauthenticated rate limits when updating multiple tables, you can optionally set your GitHub personal access token in your environment:
+> **GitHub API Rate Limits**: To increase your rate limit when running fresh queries, you can set your GitHub personal access token:
 > ```bash
 > export GITHUB_TOKEN="your_personal_access_token"      # Linux / macOS
 > $env:GITHUB_TOKEN="your_personal_access_token"        # Windows PowerShell

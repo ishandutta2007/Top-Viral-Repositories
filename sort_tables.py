@@ -4,28 +4,81 @@ sort_tables.py
 Script to sort GitHub repository markdown tables in README.md or category markdown files
 by star count using the GitHub API, and re-rank rows.
 
+Features:
+- Caches fetched star data locally in .star_cache.json with a 24-hour TTL.
+- Repositories fetched within the last 24 hours use local cache instead of making new API calls.
+- Gracefully falls back to cached data if rate-limited or offline.
+- Supports --refresh / --no-cache to bypass cache when desired.
+- Defaults to README.md if no file argument is passed.
+
 Usage:
-    python sort_tables.py                     # Sorts table in README.md
+    python sort_tables.py                     # Sorts table in README.md (cached < 24h)
     python sort_tables.py README.md           # Sorts table in README.md
     python sort_tables.py categories/cli-coding-assistants.md  # Sorts specific category file
     python sort_tables.py categories/*.md     # Sorts multiple category files
+    python sort_tables.py --refresh           # Forces bypass of cache
 """
 
 import sys
 import os
 import re
 import json
+import time
 import urllib.request
 import urllib.error
 
-# Cache star counts across tables/files to avoid duplicate API calls
+# Cache configuration
+CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".star_cache.json")
+CACHE_TTL_SECONDS = 24 * 60 * 60  # 24 hours
+
 STAR_CACHE = {}
+CACHE_DIRTY = False
 
 
-def get_repo_stars(repo_path: str) -> int:
-    """Fetch GitHub stargazers count for a repository (owner/repo)."""
-    if repo_path in STAR_CACHE:
-        return STAR_CACHE[repo_path]
+def load_cache() -> dict:
+    """Load local star cache from disk."""
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[Warning] Could not read cache file {CACHE_FILE}: {e}")
+    return {}
+
+
+def save_cache():
+    """Save star cache to disk."""
+    global CACHE_DIRTY
+    if not CACHE_DIRTY:
+        return
+    try:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(STAR_CACHE, f, indent=2)
+        CACHE_DIRTY = False
+    except Exception as e:
+        print(f"[Warning] Could not write cache file {CACHE_FILE}: {e}")
+
+
+def get_repo_stars(repo_path: str, force_refresh: bool = False) -> tuple[int, str]:
+    """
+    Fetch GitHub stargazers count for a repository (owner/repo).
+    Returns (stars, source_info).
+    """
+    global CACHE_DIRTY
+    now = time.time()
+
+    # Check local cache first (valid for 24 hours)
+    if not force_refresh and repo_path in STAR_CACHE:
+        entry = STAR_CACHE[repo_path]
+        if isinstance(entry, dict):
+            cached_stars = entry.get("stars", -1)
+            cached_time = entry.get("timestamp", 0)
+            age_seconds = now - cached_time
+            if cached_stars >= 0 and age_seconds < CACHE_TTL_SECONDS:
+                hours_ago = age_seconds / 3600.0
+                return cached_stars, f"cache ({hours_ago:.1f}h ago)"
+        elif isinstance(entry, int) and entry >= 0:
+            return entry, "cache"
 
     url = f"https://api.github.com/repos/{repo_path}"
     headers = {
@@ -42,15 +95,26 @@ def get_repo_stars(repo_path: str) -> int:
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read().decode("utf-8"))
             stars = data.get("stargazers_count", 0)
-            STAR_CACHE[repo_path] = stars
-            return stars
+            STAR_CACHE[repo_path] = {
+                "stars": stars,
+                "timestamp": now,
+                "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(now)),
+            }
+            CACHE_DIRTY = True
+            return stars, "live API"
     except urllib.error.HTTPError as e:
         print(f"  [Warning] HTTP Error {e.code} for {repo_path}: {e.reason}")
     except Exception as e:
         print(f"  [Warning] Failed to fetch stars for {repo_path}: {e}")
 
-    STAR_CACHE[repo_path] = -1
-    return -1
+    # Fallback to stale cached stars if API call fails
+    if repo_path in STAR_CACHE and isinstance(STAR_CACHE[repo_path], dict):
+        stale_stars = STAR_CACHE[repo_path].get("stars", -1)
+        if stale_stars >= 0:
+            hours_ago = (now - STAR_CACHE[repo_path].get("timestamp", now)) / 3600.0
+            return stale_stars, f"stale cache ({hours_ago:.1f}h ago)"
+
+    return -1, "error"
 
 
 def extract_repo_path(row_str: str) -> str:
@@ -83,7 +147,7 @@ def format_rank(rank_num: int, use_medals: bool) -> str:
     return str(rank_num)
 
 
-def sort_markdown_table(file_path: str):
+def sort_markdown_table(file_path: str, force_refresh: bool = False):
     """Parses, sorts by stars, and updates repository tables in a markdown file."""
     if not os.path.exists(file_path):
         print(f"[Error] File not found: {file_path}")
@@ -151,13 +215,14 @@ def sort_markdown_table(file_path: str):
                 # Fetch stars and sort rows
                 for r in rows:
                     if r["repo_path"]:
-                        stars = get_repo_stars(r["repo_path"])
-                        r["stars"] = stars
-                        print(
-                            f"  {r['repo_path']:<40} -> {stars:,} stars"
-                            if stars >= 0
-                            else f"  {r['repo_path']:<40} -> [error/unknown]"
+                        stars, source = get_repo_stars(
+                            r["repo_path"], force_refresh=force_refresh
                         )
+                        r["stars"] = stars
+                        if stars >= 0:
+                            print(f"  {r['repo_path']:<42} -> {stars:,} stars [{source}]")
+                        else:
+                            print(f"  {r['repo_path']:<42} -> [error/unknown]")
                     else:
                         r["stars"] = -1
 
@@ -195,7 +260,20 @@ def sort_markdown_table(file_path: str):
 
 
 def main():
-    target_files = sys.argv[1:]
+    global STAR_CACHE
+    STAR_CACHE = load_cache()
+
+    args = sys.argv[1:]
+    force_refresh = False
+
+    filtered_args = []
+    for arg in args:
+        if arg in ("--refresh", "--no-cache", "-r"):
+            force_refresh = True
+        else:
+            filtered_args.append(arg)
+
+    target_files = filtered_args
     if not target_files:
         default_file = "README.md"
         if os.path.exists(default_file):
@@ -208,8 +286,11 @@ def main():
             else:
                 target_files = ["README.md"]
 
-    for file_arg in target_files:
-        sort_markdown_table(file_arg)
+    try:
+        for file_arg in target_files:
+            sort_markdown_table(file_arg, force_refresh=force_refresh)
+    finally:
+        save_cache()
 
 
 if __name__ == "__main__":

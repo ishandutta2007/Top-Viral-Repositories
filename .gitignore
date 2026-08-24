@@ -2,6 +2,7 @@
 *.bk
 *.env
 .cache
+.star_cache.json
 __pycache__/
 contributors.txt
 temp_repo_clone
