@@ -938,5 +938,100 @@
     "stars": 2174,
     "timestamp": 1787541689.9190748,
     "fetched_at": "2026-08-24T03:21:29Z"
+  },
+  "karpathy/nanoGPT": {
+    "stars": 62437,
+    "timestamp": 1787541713.188801,
+    "fetched_at": "2026-08-24T03:21:53Z"
+  },
+  "karpathy/llm.c": {
+    "stars": 30852,
+    "timestamp": 1787541713.7447062,
+    "fetched_at": "2026-08-24T03:21:53Z"
+  },
+  "karpathy/micrograd": {
+    "stars": 17243,
+    "timestamp": 1787541714.2802758,
+    "fetched_at": "2026-08-24T03:21:54Z"
+  },
+  "karpathy/minbpe": {
+    "stars": 10687,
+    "timestamp": 1787541714.8511257,
+    "fetched_at": "2026-08-24T03:21:54Z"
+  },
+  "tinygrad/tinygrad": {
+    "stars": 33493,
+    "timestamp": 1787541715.3994746,
+    "fetched_at": "2026-08-24T03:21:55Z"
+  },
+  "karpathy/makemore": {
+    "stars": 4209,
+    "timestamp": 1787541716.0016606,
+    "fetched_at": "2026-08-24T03:21:56Z"
+  },
+  "karpathy/llama2.c": {
+    "stars": 20017,
+    "timestamp": 1787541716.5760088,
+    "fetched_at": "2026-08-24T03:21:56Z"
+  },
+  "Lightning-AI/litgpt": {
+    "stars": 13621,
+    "timestamp": 1787541717.1490288,
+    "fetched_at": "2026-08-24T03:21:57Z"
+  },
+  "jaymody/picoGPT": {
+    "stars": 3472,
+    "timestamp": 1787541717.7825234,
+    "fetched_at": "2026-08-24T03:21:57Z"
+  },
+  "huggingface/transformers": {
+    "stars": 164378,
+    "timestamp": 1787541718.3717432,
+    "fetched_at": "2026-08-24T03:21:58Z"
+  },
+  "mlabonne/llm-course": {
+    "stars": 81944,
+    "timestamp": 1787541718.9595397,
+    "fetched_at": "2026-08-24T03:21:58Z"
+  },
+  "fastai/fastai": {
+    "stars": 28120,
+    "timestamp": 1787541719.5098264,
+    "fetched_at": "2026-08-24T03:21:59Z"
+  },
+  "d2l-ai/d2l-en": {
+    "stars": 29432,
+    "timestamp": 1787541720.1152196,
+    "fetched_at": "2026-08-24T03:22:00Z"
+  },
+  "eriklindernoren/ML-From-Scratch": {
+    "stars": 32514,
+    "timestamp": 1787541720.7431917,
+    "fetched_at": "2026-08-24T03:22:00Z"
+  },
+  "karpathy/nn-zero-to-hero": {
+    "stars": 24087,
+    "timestamp": 1787541721.3318856,
+    "fetched_at": "2026-08-24T03:22:01Z"
+  },
+  "oreilly-japan/deep-learning-from-scratch": {
+    "stars": 4837,
+    "timestamp": 1787541721.8997757,
+    "fetched_at": "2026-08-24T03:22:01Z"
+  },
+  "rasbt/LLMs-from-scratch": {
+    "stars": 103575,
+    "timestamp": 1787541723.4437366,
+    "fetched_at": "2026-08-24T03:22:03Z"
+  },
+  "stanfordnlp/cs224n-winter17-notes": {
+    "stars": 1605,
+    "timestamp": 1787542064.0951416,
+    "fetched_at": "2026-08-24T03:27:44Z"
+  },
+  "naklecha/simple-llm": {
+    "stars": 479,
+    "timestamp": 1787542128.4878519,
+    "fetched_at": "2026-08-24T03:28:48Z"
   }
 }
