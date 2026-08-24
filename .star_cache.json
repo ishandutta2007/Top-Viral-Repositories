@@ -1328,5 +1328,50 @@
     "stars": 132,
     "timestamp": 1787543131.2551062,
     "fetched_at": "2026-08-24T03:45:31Z"
+  },
+  "ChatGPTNextWeb/ChatGPT-Next-Web": {
+    "stars": 88642,
+    "timestamp": 1787543157.5993867,
+    "fetched_at": "2026-08-24T03:45:57Z"
+  },
+  "oobabooga/text-generation-webui": {
+    "stars": 47563,
+    "timestamp": 1787543158.69597,
+    "fetched_at": "2026-08-24T03:45:58Z"
+  },
+  "SillyTavern/SillyTavern": {
+    "stars": 32566,
+    "timestamp": 1787543159.826482,
+    "fetched_at": "2026-08-24T03:45:59Z"
+  },
+  "enricoros/big-agi": {
+    "stars": 7098,
+    "timestamp": 1787543160.3897529,
+    "fetched_at": "2026-08-24T03:46:00Z"
+  },
+  "stackblitz-labs/bolt.diy": {
+    "stars": 19800,
+    "timestamp": 1787543160.9294214,
+    "fetched_at": "2026-08-24T03:46:00Z"
+  },
+  "sunner/ChatALL": {
+    "stars": 16478,
+    "timestamp": 1787543162.2392423,
+    "fetched_at": "2026-08-24T03:46:02Z"
+  },
+  "ztjhz/BetterChatGPT": {
+    "stars": 8387,
+    "timestamp": 1787543163.406165,
+    "fetched_at": "2026-08-24T03:46:03Z"
+  },
+  "mlc-ai/web-llm": {
+    "stars": 18587,
+    "timestamp": 1787543163.9861436,
+    "fetched_at": "2026-08-24T03:46:03Z"
+  },
+  "TypingMind/typingmind": {
+    "stars": 963,
+    "timestamp": 1787543268.1298625,
+    "fetched_at": "2026-08-24T03:47:48Z"
   }
 }
