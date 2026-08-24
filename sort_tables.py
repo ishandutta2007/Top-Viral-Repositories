@@ -5,6 +5,8 @@ Script to sort GitHub repository markdown tables in README.md or category markdo
 by star count using the GitHub API, and re-rank rows.
 
 Features:
+- Reads GitHub token from .env file (or environment variables) for authenticated API requests.
+- Falls back to unauthenticated calls only if .env and environment tokens are not found.
 - Caches fetched star data locally in .star_cache.json with a 24-hour TTL.
 - Repositories fetched within the last 24 hours use local cache instead of making new API calls.
 - Gracefully falls back to cached data if rate-limited or offline.
@@ -33,6 +35,51 @@ CACHE_TTL_SECONDS = 24 * 60 * 60  # 24 hours
 
 STAR_CACHE = {}
 CACHE_DIRTY = False
+GITHUB_TOKEN = None
+
+
+def load_github_token() -> str:
+    """
+    Search for a GitHub token in .env file (in current dir or script dir)
+    or in environment variables. Returns the token if found, else empty string.
+    """
+    # 1. Check existing environment variables first
+    for key in ("GITHUB_TOKEN", "GH_TOKEN", "github_token", "gh_token"):
+        if os.environ.get(key):
+            return os.environ[key].strip()
+
+    # 2. Look for .env file
+    candidate_paths = [
+        os.path.join(os.getcwd(), ".env"),
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env"),
+    ]
+
+    # Deduplicate while preserving order
+    seen = set()
+    for env_path in candidate_paths:
+        norm_path = os.path.normpath(env_path)
+        if norm_path in seen:
+            continue
+        seen.add(norm_path)
+
+        if os.path.isfile(norm_path):
+            try:
+                with open(norm_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or line.startswith("#"):
+                            continue
+                        if "=" in line:
+                            k, v = line.split("=", 1)
+                            k = k.strip()
+                            v = v.strip().strip("'\"")
+                            if k.upper() in ("GITHUB_TOKEN", "GH_TOKEN"):
+                                if v:
+                                    return v
+            except Exception as e:
+                print(f"[Warning] Failed reading .env from {norm_path}: {e}")
+
+    return ""
 
 
 def load_cache() -> dict:
@@ -84,11 +131,11 @@ def get_repo_stars(repo_path: str, force_refresh: bool = False) -> tuple[int, st
     headers = {
         "User-Agent": "Top-Viral-Repositories-Sorter/1.0",
         "Accept": "application/vnd.github.v3+json",
+        "X-GitHub-Api-Version": "2022-11-28",
     }
 
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if token:
-        headers["Authorization"] = f"token {token}"
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
     req = urllib.request.Request(url, headers=headers)
     try:
@@ -101,9 +148,11 @@ def get_repo_stars(repo_path: str, force_refresh: bool = False) -> tuple[int, st
                 "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(now)),
             }
             CACHE_DIRTY = True
-            return stars, "live API"
+            source = "API (authenticated)" if GITHUB_TOKEN else "API (unauthenticated)"
+            return stars, source
     except urllib.error.HTTPError as e:
-        print(f"  [Warning] HTTP Error {e.code} for {repo_path}: {e.reason}")
+        auth_status = "authenticated" if GITHUB_TOKEN else "unauthenticated"
+        print(f"  [Warning] HTTP Error {e.code} ({auth_status}) for {repo_path}: {e.reason}")
     except Exception as e:
         print(f"  [Warning] Failed to fetch stars for {repo_path}: {e}")
 
@@ -260,8 +309,15 @@ def sort_markdown_table(file_path: str, force_refresh: bool = False):
 
 
 def main():
-    global STAR_CACHE
+    global STAR_CACHE, GITHUB_TOKEN
     STAR_CACHE = load_cache()
+    GITHUB_TOKEN = load_github_token()
+
+    if GITHUB_TOKEN:
+        masked = GITHUB_TOKEN[:8] + "..." + GITHUB_TOKEN[-4:] if len(GITHUB_TOKEN) > 12 else "***"
+        print(f"🔑 Using authenticated GitHub API (token: {masked})")
+    else:
+        print("ℹ️ No .env or GITHUB_TOKEN found; falling back to unauthenticated API calls")
 
     args = sys.argv[1:]
     force_refresh = False
