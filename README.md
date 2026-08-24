@@ -48,6 +48,7 @@
 - [💡 Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 - [🏷️ Trending Tags & Keywords](#️-trending-tags--keywords)
 - [⭐ Star History](#-star-history)
+- [🔄 Sorting Tables by Stars](#-sorting-tables-by-stars)
 - [🛠️ Contributing & Submissions](#️-contributing--submissions)
 - [📄 License](#-license)
 
@@ -145,14 +146,45 @@ Open a pull request following our contribution guide below. Ensure the project i
 
 ---
 
+## 🔄 Sorting Tables by Stars 📊
+
+Use the included [`sort_tables.py`](sort_tables.py) script to automatically fetch live star counts via GitHub API, sort rows in descending order, and re-rank tables across `README.md` and category files.
+
+### 🚀 Usage
+
+- **Sort the main table in `README.md` (default)**:
+  ```bash
+  python sort_tables.py
+  ```
+
+- **Sort a specific category markdown file**:
+  ```bash
+  python sort_tables.py categories/cli-coding-assistants.md
+  ```
+
+- **Sort multiple category files or all files**:
+  ```bash
+  python sort_tables.py categories/*.md
+  ```
+
+> [!TIP]
+> **GitHub API Rate Limits**: To avoid unauthenticated rate limits when updating multiple tables, you can optionally set your GitHub personal access token in your environment:
+> ```bash
+> export GITHUB_TOKEN="your_personal_access_token"      # Linux / macOS
+> $env:GITHUB_TOKEN="your_personal_access_token"        # Windows PowerShell
+> ```
+
+---
+
 ## 🛠️ Contributing & Submissions 🤝
 
 We welcome contributions from the community! If you've created or discovered an open-source tool that should be featured:
 
 1. 🍴 **Fork** this repository.
 2. 🌿 Create your branch (`git checkout -b feature/nominate-repo`).
-3. 📝 Add your entry to the table in its correct star-ranked position.
-4. 🚀 Open a **Pull Request** with a brief summary of the tool and its utility.
+3. 📝 Add your entry to the appropriate category table in `categories/` or the top list in `README.md`.
+4. 🔄 Run `python sort_tables.py [file]` to ensure table rows are sorted and ranked properly.
+5. 🚀 Open a **Pull Request** with a brief summary of the tool and its utility.
 
 ---
 
