@@ -238,5 +238,30 @@
     "stars": 12185,
     "timestamp": 1787537453.804169,
     "fetched_at": "2026-08-24T02:10:53Z"
+  },
+  "BloopAI/bloop": {
+    "stars": 9499,
+    "timestamp": 1787537890.2775903,
+    "fetched_at": "2026-08-24T02:18:10Z"
+  },
+  "TabbyML/tabby": {
+    "stars": 33832,
+    "timestamp": 1787537890.8614013,
+    "fetched_at": "2026-08-24T02:18:10Z"
+  },
+  "pontusab/cursor.directory": {
+    "stars": 3979,
+    "timestamp": 1787537891.4312148,
+    "fetched_at": "2026-08-24T02:18:11Z"
+  },
+  "Doriandarko/claude-engineer": {
+    "stars": 11225,
+    "timestamp": 1787537892.6210308,
+    "fetched_at": "2026-08-24T02:18:12Z"
+  },
+  "AbanteAI/archive-old-cli-mentat": {
+    "stars": 2544,
+    "timestamp": 1787538053.9101994,
+    "fetched_at": "2026-08-24T02:20:53Z"
   }
 }
