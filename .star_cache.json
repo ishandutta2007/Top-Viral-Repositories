@@ -858,5 +858,60 @@
     "stars": 1122,
     "timestamp": 1787541578.7827892,
     "fetched_at": "2026-08-24T03:19:38Z"
+  },
+  "janhq/jan": {
+    "stars": 44121,
+    "timestamp": 1787541605.0671768,
+    "fetched_at": "2026-08-24T03:20:05Z"
+  },
+  "nomic-ai/gpt4all": {
+    "stars": 77396,
+    "timestamp": 1787541605.6598516,
+    "fetched_at": "2026-08-24T03:20:05Z"
+  },
+  "mudler/LocalAI": {
+    "stars": 48642,
+    "timestamp": 1787541606.2653208,
+    "fetched_at": "2026-08-24T03:20:06Z"
+  },
+  "letta-ai/letta": {
+    "stars": 24379,
+    "timestamp": 1787541606.841188,
+    "fetched_at": "2026-08-24T03:20:06Z"
+  },
+  "lobehub/lobe-chat": {
+    "stars": 81953,
+    "timestamp": 1787541607.4680672,
+    "fetched_at": "2026-08-24T03:20:07Z"
+  },
+  "Bin-Huang/chatbox": {
+    "stars": 41541,
+    "timestamp": 1787541608.641974,
+    "fetched_at": "2026-08-24T03:20:08Z"
+  },
+  "danielmiessler/fabric": {
+    "stars": 43509,
+    "timestamp": 1787541609.835637,
+    "fetched_at": "2026-08-24T03:20:09Z"
+  },
+  "cheshire-cat-ai/core": {
+    "stars": 3085,
+    "timestamp": 1787541610.4153712,
+    "fetched_at": "2026-08-24T03:20:10Z"
+  },
+  "reworkd/AgentGPT": {
+    "stars": 36305,
+    "timestamp": 1787541611.0557668,
+    "fetched_at": "2026-08-24T03:20:11Z"
+  },
+  "Significant-Gravitas/AutoGPT": {
+    "stars": 186833,
+    "timestamp": 1787541611.6458957,
+    "fetched_at": "2026-08-24T03:20:11Z"
+  },
+  "mindmacapp/mindmac": {
+    "stars": 25,
+    "timestamp": 1787541612.2813752,
+    "fetched_at": "2026-08-24T03:20:12Z"
   }
 }
