@@ -698,5 +698,85 @@
     "stars": 515,
     "timestamp": 1787539288.6952786,
     "fetched_at": "2026-08-24T02:41:28Z"
+  },
+  "songquanpeng/one-api": {
+    "stars": 36543,
+    "timestamp": 1787539396.4069772,
+    "fetched_at": "2026-08-24T02:43:16Z"
+  },
+  "Portkey-AI/gateway": {
+    "stars": 12813,
+    "timestamp": 1787539397.471105,
+    "fetched_at": "2026-08-24T02:43:17Z"
+  },
+  "langfuse/langfuse": {
+    "stars": 33589,
+    "timestamp": 1787539398.0272176,
+    "fetched_at": "2026-08-24T02:43:18Z"
+  },
+  "lm-sys/RouteLLM": {
+    "stars": 5388,
+    "timestamp": 1787539398.6366804,
+    "fetched_at": "2026-08-24T02:43:18Z"
+  },
+  "Kong/kong": {
+    "stars": 44027,
+    "timestamp": 1787539399.7569191,
+    "fetched_at": "2026-08-24T02:43:19Z"
+  },
+  "envoyproxy/envoy": {
+    "stars": 28812,
+    "timestamp": 1787539400.3520799,
+    "fetched_at": "2026-08-24T02:43:20Z"
+  },
+  "protectai/llm-guard": {
+    "stars": 3201,
+    "timestamp": 1787539400.9561088,
+    "fetched_at": "2026-08-24T02:43:20Z"
+  },
+  "guardrails-ai/guardrails": {
+    "stars": 7314,
+    "timestamp": 1787539401.5922186,
+    "fetched_at": "2026-08-24T02:43:21Z"
+  },
+  "promptfoo/promptfoo": {
+    "stars": 24502,
+    "timestamp": 1787539402.2874124,
+    "fetched_at": "2026-08-24T02:43:22Z"
+  },
+  "truefoundry/cognita": {
+    "stars": 4417,
+    "timestamp": 1787539403.4295437,
+    "fetched_at": "2026-08-24T02:43:23Z"
+  },
+  "OpenRouterTeam/openrouter-runner": {
+    "stars": 1257,
+    "timestamp": 1787539404.5368948,
+    "fetched_at": "2026-08-24T02:43:24Z"
+  },
+  "QuantumNous/new-api": {
+    "stars": 46023,
+    "timestamp": 1787539542.7836835,
+    "fetched_at": "2026-08-24T02:45:42Z"
+  },
+  "cloudflare/ai": {
+    "stars": 1149,
+    "timestamp": 1787539543.3954027,
+    "fetched_at": "2026-08-24T02:45:43Z"
+  },
+  "maximhq/bifrost": {
+    "stars": 7521,
+    "timestamp": 1787539953.3660433,
+    "fetched_at": "2026-08-24T02:52:33Z"
+  },
+  "mozilla-ai/any-llm": {
+    "stars": 2170,
+    "timestamp": 1787539954.3832338,
+    "fetched_at": "2026-08-24T02:52:34Z"
+  },
+  "FedML-AI/FedML": {
+    "stars": 4062,
+    "timestamp": 1787539955.4595423,
+    "fetched_at": "2026-08-24T02:52:35Z"
   }
 }
