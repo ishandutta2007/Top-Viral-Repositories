@@ -913,5 +913,30 @@
     "stars": 25,
     "timestamp": 1787541612.2813752,
     "fetched_at": "2026-08-24T03:20:12Z"
+  },
+  "Mozilla-Ocho/llamafile": {
+    "stars": 25680,
+    "timestamp": 1787541686.9419975,
+    "fetched_at": "2026-08-24T03:21:26Z"
+  },
+  "LostRuins/koboldcpp": {
+    "stars": 11507,
+    "timestamp": 1787541688.0752563,
+    "fetched_at": "2026-08-24T03:21:28Z"
+  },
+  "kvcache-ai/ktransformers": {
+    "stars": 19281,
+    "timestamp": 1787541688.7466862,
+    "fetched_at": "2026-08-24T03:21:28Z"
+  },
+  "lm-sys/FastChat": {
+    "stars": 39522,
+    "timestamp": 1787541689.3187172,
+    "fetched_at": "2026-08-24T03:21:29Z"
+  },
+  "intel/intel-extension-for-transformers": {
+    "stars": 2174,
+    "timestamp": 1787541689.9190748,
+    "fetched_at": "2026-08-24T03:21:29Z"
   }
 }
