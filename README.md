@@ -123,15 +123,9 @@ Open a pull request following our contribution guide below. Ensure the project i
 
 ---
 
-## ⭐ Star History 📈
+## ⭐ Star History
 
-<a href="https://star-history.com/#ishandutta2007/Top-Viral-Repositories&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ishandutta2007/Top-Viral-Repositories&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ishandutta2007/Top-Viral-Repositories&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ishandutta2007/Top-Viral-Repositories&type=Date" />
- </picture>
-</a>
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Top-Viral-Repositories&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Top-Viral-Repositories&type=date&legend=top-left)
 
 ---
 
