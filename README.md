@@ -1,12 +1,35 @@
-# Top-Viral-Repositories
+# Top Viral Repositories 🌟: Top 20 Trending Open-Source GitHub Projects (2026)
 
-## 🚀 Top 20 Viral GitHub Repositories (2026)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Top-Viral-Repositories/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Top-Viral-Repositories?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Top-Viral-Repositories/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Top-Viral-Repositories?style=social" alt="GitHub Forks"></a>
+  <a href="https://github.com/ishandutta2007/Top-Viral-Repositories/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Top-Viral-Repositories?style=flat-square" alt="Issues"></a>
+  <a href="https://github.com/ishandutta2007/Top-Viral-Repositories/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"></a>
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" alt="Maintained">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT">
+</p>
 
+A curated directory of the **fastest-growing and top viral open-source GitHub repositories in 2026**. Discover cutting-edge projects across **Autonomous AI Agents**, **Local LLM Serving**, **Retrieval-Augmented Generation (RAG)**, **Agentic Developer Workflows**, and **Generative AI Systems**.
 
-A curated breakdown of the trending repositories dominating the open-source landscape in 2026. The ecosystem is heavily focused on autonomous AI agents, local-first privacy tools, and next-generation developer workflows.
+---
 
+## 📌 Table of Contents
 
-------------------------------
+- [🔥 Top 20 Viral GitHub Repositories (Ranked by Stars)](#-top-20-viral-github-repositories-ranked-by-stars)
+- [📂 Categorized Repository Index](#-categorized-repository-index)
+  - [🤖 AI Agents & Workflow Orchestration](#-ai-agents--workflow-orchestration)
+  - [⚡ Local LLM Runners & High-Throughput Inference](#-local-llm-runners--high-throughput-inference)
+  - [🔍 RAG, Search & Data Extraction Pipelines](#-rag-search--data-extraction-pipelines)
+  - [🎨 Generative UI, Diffusion & Assistants](#-generative-ui-diffusion--assistants)
+  - [🛡️ Security, Auditing & Educational Tooling](#️-security-auditing--educational-tooling)
+- [💡 Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+- [🏷️ Trending Tags & Keywords](#️-trending-tags--keywords)
+- [🛠️ Contributing & Submissions](#️-contributing--submissions)
+- [📄 License](#-license)
+
+---
+
+## 🔥 Top 20 Viral GitHub Repositories (Ranked by Stars)
 
 | Rank | Repository | Niche / Category | Key Highlights |
 |---|---|---|---|
@@ -31,12 +54,80 @@ A curated breakdown of the trending repositories dominating the open-source land
 | 19 | Codeex [![GitHub Repo stars](https://img.shields.io/github/stars/predictiveexecution/predictive-execution?style=social&color=white)](https://github.com/predictiveexecution/predictive-execution/stargazers) | CLI Coding Assistant & Automation | High-ROI terminal agent designed for token-efficient debugging, multi-file refactoring, and autonomous coding loops. |
 | 20 | Striks [![GitHub Repo stars](https://img.shields.io/github/stars/striks-ai/striks?style=social&color=white)](https://github.com/striks-ai/striks/stargazers) | Automated Penetration Testing & Cybersecurity | Autonomous red-team multi-agent framework to scan, exploit, and document code vulnerabilities. |
 
+---
 
-------------------------------
+## 📂 Categorized Repository Index
 
+### 🤖 AI Agents & Workflow Orchestration
+- **[Dify](https://github.com/langgenius/dify)** – Comprehensive visual platform for building production RAG and autonomous agent workflows.
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** – Cyclic, multi-actor state machines for reliable, long-running agent execution.
+- **[AutoGen](https://github.com/microsoft/autogen)** – Microsoft's multi-agent conversational framework for collaborative problem solving.
+- **[skills](https://github.com/mattpocock/skills)** – Modular agent behavior blueprints and engineering workflows for AI coding assistants.
 
-## 🛠️ Tech Stack & Contribution
+### ⚡ Local LLM Runners & High-Throughput Inference
+- **[Ollama](https://github.com/ollama/ollama)** – Quick and easy local model execution across macOS, Linux, and Windows.
+- **[vLLM](https://github.com/vllm-project/vllm)** – High-performance LLM serving engine powered by PagedAttention.
+- **[LiteLLM](https://github.com/BerriAI/litellm)** – Universal proxy gateway to unify 100+ LLM providers with load balancing and fallbacks.
 
+### 🔍 RAG, Search & Data Extraction Pipelines
+- **[Firecrawl](https://github.com/mendableai/firecrawl)** – Turn any website or dynamic web app into clean, LLM-ready markdown.
+- **[Crawl4AI](https://github.com/unclecode/crawl4ai)** – Open-source, asynchronous web scraping built from the ground up for LLMs.
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** – Deep document intelligence and retrieval engine with citation grounding.
+- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** – All-in-one private desktop and server application for chatting with documents.
 
-Feel free to fork this repository or open a Pull Request if you want to update the stats, add new viral entries, or contribute local-setup documentation for any of these open-source tools.
+### 🎨 Generative UI, Diffusion & Assistants
+- **[OpenClaw](https://github.com/openclaw/openclaw)** – Privacy-first personal assistant integrating local actions and instant messaging.
+- **[Open WebUI](https://github.com/open-webui/open-webui)** – Feature-complete self-hosted AI interface for Ollama, OpenAI, and custom pipelines.
+- **[ComfyUI](https://github.com/comfyanonymous/ComfyUI)** – Node-based GUI for building modular Stable Diffusion and generative media pipelines.
+- **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** – React UI components and backend SDKs to build in-app AI copilots.
+- **[Khoj](https://github.com/khoj-ai/khoj)** – Offline-first personal second brain that indexes notes, research, and local files.
+
+### 🛡️ Security, Auditing & Educational Tooling
+- **[Bumblebee](https://github.com/perplexityai/bumblebee)** – Perplexity's read-only security auditor for developer machines and dependencies.
+- **[Striks](https://github.com/striks-ai/striks)** – Autonomous red-team penetration testing and vulnerability analysis.
+- **[nanochat](https://github.com/karpathy/nanochat)** – Andrej Karpathy's minimalist educational guide to training and serving LLMs.
+- **[Codeex](https://github.com/predictiveexecution/predictive-execution)** – Terminal coding assistant for automated debugging and refactoring loops.
+
+---
+
+## 💡 Frequently Asked Questions (FAQ)
+
+<details>
+<summary><b>1. How are the viral repositories ranked in this list?</b></summary>
+Repositories are ordered in real-time by total GitHub stars count in descending order. The star badges are dynamically generated via Shields.io and link directly to each project's stargazers page.
+</details>
+
+<details>
+<summary><b>2. Why are local-first AI and AI agents dominating GitHub in 2026?</b></summary>
+Developers and enterprises are prioritizing privacy, cost reduction, and autonomy. Self-hosted LLM runners (like Ollama and vLLM) and multi-agent coordination frameworks (like LangGraph and AutoGen) enable powerful automated systems without lock-in to proprietary cloud APIs.
+</details>
+
+<details>
+<summary><b>3. How can I submit a new trending repository to this list?</b></summary>
+Open a pull request following our contribution guide below. Ensure the project is open-source, actively maintained, and brings distinct value to the developer or AI ecosystem.
+</details>
+
+---
+
+## 🏷️ Trending Tags & Keywords
+
+`#ai-agents` `#open-source-ai` `#local-llm` `#rag` `#autonomous-agents` `#ollama` `#vllm` `#generative-ai` `#web-scraping` `#trending-repositories` `#github-stars` `#developer-tools` `#privacy-first` `#comfyui` `#langgraph`
+
+---
+
+## 🛠️ Contributing & Submissions
+
+We welcome contributions from the community! If you've created or discovered an open-source tool that should be featured:
+
+1. **Fork** this repository.
+2. Create your branch (`git checkout -b feature/nominate-repo`).
+3. Add your entry to the table in its correct star-ranked position.
+4. Open a **Pull Request** with a brief summary of the tool and its utility.
+
+---
+
+## 📄 License
+
+This repository is licensed under the [MIT License](LICENSE). Feel free to share, fork, and adapt!
+
 
