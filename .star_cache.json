@@ -1093,5 +1093,100 @@
     "stars": 8543,
     "timestamp": 1787542380.4530184,
     "fetched_at": "2026-08-24T03:33:00Z"
+  },
+  "rapid7/metasploit-framework": {
+    "stars": 38852,
+    "timestamp": 1787542410.0461643,
+    "fetched_at": "2026-08-24T03:33:30Z"
+  },
+  "projectdiscovery/nuclei": {
+    "stars": 30734,
+    "timestamp": 1787542410.6593025,
+    "fetched_at": "2026-08-24T03:33:30Z"
+  },
+  "sqlmapproject/sqlmap": {
+    "stars": 38250,
+    "timestamp": 1787542411.2857625,
+    "fetched_at": "2026-08-24T03:33:31Z"
+  },
+  "nmap/nmap": {
+    "stars": 13430,
+    "timestamp": 1787542411.907728,
+    "fetched_at": "2026-08-24T03:33:31Z"
+  },
+  "zaproxy/zaproxy": {
+    "stars": 15672,
+    "timestamp": 1787542412.5171144,
+    "fetched_at": "2026-08-24T03:33:32Z"
+  },
+  "owasp-amass/amass": {
+    "stars": 15028,
+    "timestamp": 1787542413.132826,
+    "fetched_at": "2026-08-24T03:33:33Z"
+  },
+  "sullo/nikto": {
+    "stars": 10676,
+    "timestamp": 1787542413.791498,
+    "fetched_at": "2026-08-24T03:33:33Z"
+  },
+  "aboul3la/Sublist3r": {
+    "stars": 11024,
+    "timestamp": 1787542414.7357202,
+    "fetched_at": "2026-08-24T03:33:34Z"
+  },
+  "wpscanteam/wpscan": {
+    "stars": 9736,
+    "timestamp": 1787542415.2778633,
+    "fetched_at": "2026-08-24T03:33:35Z"
+  },
+  "OJ/gobuster": {
+    "stars": 14020,
+    "timestamp": 1787542415.8657122,
+    "fetched_at": "2026-08-24T03:33:35Z"
+  },
+  "ffuf/ffuf": {
+    "stars": 16569,
+    "timestamp": 1787542416.4650018,
+    "fetched_at": "2026-08-24T03:33:36Z"
+  },
+  "vanhauser-thc/thc-hydra": {
+    "stars": 12187,
+    "timestamp": 1787542417.0650148,
+    "fetched_at": "2026-08-24T03:33:37Z"
+  },
+  "openwall/john": {
+    "stars": 13530,
+    "timestamp": 1787542417.6700761,
+    "fetched_at": "2026-08-24T03:33:37Z"
+  },
+  "SpecterOps/BloodHound": {
+    "stars": 3341,
+    "timestamp": 1787542418.2539527,
+    "fetched_at": "2026-08-24T03:33:38Z"
+  },
+  "mitre/caldera": {
+    "stars": 7211,
+    "timestamp": 1787542418.8806732,
+    "fetched_at": "2026-08-24T03:33:38Z"
+  },
+  "xmendez/wfuzz": {
+    "stars": 6557,
+    "timestamp": 1787542421.3888514,
+    "fetched_at": "2026-08-24T03:33:41Z"
+  },
+  "greydgl/pentestgpt": {
+    "stars": 15035,
+    "timestamp": 1787542639.4883645,
+    "fetched_at": "2026-08-24T03:37:19Z"
+  },
+  "caido/caido": {
+    "stars": 2557,
+    "timestamp": 1787542640.498615,
+    "fetched_at": "2026-08-24T03:37:20Z"
+  },
+  "usestrix/strix": {
+    "stars": 57466,
+    "timestamp": 1787542712.0733993,
+    "fetched_at": "2026-08-24T03:38:32Z"
   }
 }

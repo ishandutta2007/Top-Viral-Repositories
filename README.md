@@ -77,7 +77,7 @@
 | 17 | **Khoj** [![GitHub Repo stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers) | [🧠 Personal AI Second Brain & Offline Assistant](categories/personal-ai-second-brain.md) | 🔍 Local-first AI assistant to search, reason, and chat with notes, documents, images, and codebases privately. |
 | 18 | **Bumblebee (by Perplexity AI)** [![GitHub Repo stars](https://img.shields.io/github/stars/perplexityai/bumblebee?style=social&color=white)](https://github.com/perplexityai/bumblebee/stargazers) | [🛡️ Supply Chain Security & Dependency Auditing](categories/security-dependency-auditing.md) | 🔎 Read-only security scanner to detect malicious packages and nested supply-chain risks across codebases. |
 | 19 | **Codeex** [![GitHub Repo stars](https://img.shields.io/github/stars/predictiveexecution/predictive-execution?style=social&color=white)](https://github.com/predictiveexecution/predictive-execution/stargazers) | [💻 CLI Coding Assistant & Automation](categories/cli-coding-assistants.md) | ⚡ High-ROI terminal agent designed for token-efficient debugging, multi-file refactoring, and autonomous coding loops. |
-| 20 | **Striks** [![GitHub Repo stars](https://img.shields.io/github/stars/striks-ai/striks?style=social&color=white)](https://github.com/striks-ai/striks/stargazers) | [🚨 Automated Penetration Testing & Cybersecurity](categories/penetration-testing-cybersecurity.md) | ⚔️ Autonomous red-team multi-agent framework to scan, exploit, and document code vulnerabilities. |
+| 20 | **Striks** [![GitHub Repo stars](https://img.shields.io/github/stars/usestrix/strix?style=social&color=white)](https://github.com/usestrix/strix/stargazers) | [🚨 Automated Penetration Testing & Cybersecurity](categories/penetration-testing-cybersecurity.md) | ⚔️ Autonomous red-team multi-agent framework to scan, exploit, and document code vulnerabilities. |
 
 ---
 
@@ -109,7 +109,7 @@
 
 ### 🛡️ Security, Auditing & Educational Tooling
 - 🔎 **[Bumblebee](https://github.com/perplexityai/bumblebee)** – Perplexity's read-only security auditor for developer machines and dependencies.
-- ⚔️ **[Striks](https://github.com/striks-ai/striks)** – Autonomous red-team penetration testing and vulnerability analysis.
+- ⚔️ **[Striks](https://github.com/usestrix/strix)** – Autonomous red-team penetration testing and vulnerability analysis.
 - 🎓 **[nanochat](https://github.com/karpathy/nanochat)** – Andrej Karpathy's minimalist educational guide to training and serving LLMs.
 - 💻 **[Codeex](https://github.com/predictiveexecution/predictive-execution)** – Terminal coding assistant for automated debugging and refactoring loops.
 
