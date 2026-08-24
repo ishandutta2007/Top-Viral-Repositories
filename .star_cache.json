@@ -1373,5 +1373,60 @@
     "stars": 963,
     "timestamp": 1787543268.1298625,
     "fetched_at": "2026-08-24T03:47:48Z"
+  },
+  "microsoft/playwright": {
+    "stars": 95017,
+    "timestamp": 1787543335.8794954,
+    "fetched_at": "2026-08-24T03:48:55Z"
+  },
+  "puppeteer/puppeteer": {
+    "stars": 95491,
+    "timestamp": 1787543336.4586787,
+    "fetched_at": "2026-08-24T03:48:56Z"
+  },
+  "wention/BeautifulSoup4": {
+    "stars": 222,
+    "timestamp": 1787543337.0308924,
+    "fetched_at": "2026-08-24T03:48:57Z"
+  },
+  "cheeriojs/cheerio": {
+    "stars": 30464,
+    "timestamp": 1787543337.604928,
+    "fetched_at": "2026-08-24T03:48:57Z"
+  },
+  "apify/apify-sdk-python": {
+    "stars": 176,
+    "timestamp": 1787543338.219149,
+    "fetched_at": "2026-08-24T03:48:58Z"
+  },
+  "SeleniumHQ/selenium": {
+    "stars": 34384,
+    "timestamp": 1787543338.8091686,
+    "fetched_at": "2026-08-24T03:48:58Z"
+  },
+  "mozilla/readability": {
+    "stars": 11411,
+    "timestamp": 1787543339.4666493,
+    "fetched_at": "2026-08-24T03:48:59Z"
+  },
+  "gocolly/colly": {
+    "stars": 25473,
+    "timestamp": 1787543340.0920005,
+    "fetched_at": "2026-08-24T03:49:00Z"
+  },
+  "AndyTheFactory/newspaper4k": {
+    "stars": 1140,
+    "timestamp": 1787543340.6873012,
+    "fetched_at": "2026-08-24T03:49:00Z"
+  },
+  "goose3/goose3": {
+    "stars": 912,
+    "timestamp": 1787543341.2438369,
+    "fetched_at": "2026-08-24T03:49:01Z"
+  },
+  "MechanicalSoup/MechanicalSoup": {
+    "stars": 4888,
+    "timestamp": 1787543341.8581321,
+    "fetched_at": "2026-08-24T03:49:01Z"
   }
 }
