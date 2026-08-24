@@ -478,5 +478,95 @@
     "stars": 4696,
     "timestamp": 1787538519.814283,
     "fetched_at": "2026-08-24T02:28:39Z"
+  },
+  "AUTOMATIC1111/stable-diffusion-webui": {
+    "stars": 164628,
+    "timestamp": 1787538551.0333052,
+    "fetched_at": "2026-08-24T02:29:11Z"
+  },
+  "lllyasviel/Fooocus": {
+    "stars": 52501,
+    "timestamp": 1787538551.62577,
+    "fetched_at": "2026-08-24T02:29:11Z"
+  },
+  "invoke-ai/InvokeAI": {
+    "stars": 27945,
+    "timestamp": 1787538552.1935287,
+    "fetched_at": "2026-08-24T02:29:12Z"
+  },
+  "lllyasviel/stable-diffusion-webui-forge": {
+    "stars": 12970,
+    "timestamp": 1787538552.768946,
+    "fetched_at": "2026-08-24T02:29:12Z"
+  },
+  "huggingface/diffusers": {
+    "stars": 34360,
+    "timestamp": 1787538553.3095005,
+    "fetched_at": "2026-08-24T02:29:13Z"
+  },
+  "bmaltais/kohya_ss": {
+    "stars": 12546,
+    "timestamp": 1787538553.921739,
+    "fetched_at": "2026-08-24T02:29:13Z"
+  },
+  "Stability-AI/StableSwarmUI": {
+    "stars": 4946,
+    "timestamp": 1787538554.4853854,
+    "fetched_at": "2026-08-24T02:29:14Z"
+  },
+  "lllyasviel/ControlNet": {
+    "stars": 34077,
+    "timestamp": 1787538555.0832508,
+    "fetched_at": "2026-08-24T02:29:15Z"
+  },
+  "guoyww/AnimateDiff": {
+    "stars": 12221,
+    "timestamp": 1787538555.6417017,
+    "fetched_at": "2026-08-24T02:29:15Z"
+  },
+  "black-forest-labs/flux": {
+    "stars": 25902,
+    "timestamp": 1787538556.2085054,
+    "fetched_at": "2026-08-24T02:29:16Z"
+  },
+  "Stability-AI/generative-models": {
+    "stars": 27268,
+    "timestamp": 1787538556.900119,
+    "fetched_at": "2026-08-24T02:29:16Z"
+  },
+  "THUDM/CogVideo": {
+    "stars": 12969,
+    "timestamp": 1787538557.512474,
+    "fetched_at": "2026-08-24T02:29:17Z"
+  },
+  "InstantID/InstantID": {
+    "stars": 11987,
+    "timestamp": 1787538558.6108234,
+    "fetched_at": "2026-08-24T02:29:18Z"
+  },
+  "facefusion/facefusion": {
+    "stars": 29669,
+    "timestamp": 1787538559.7150419,
+    "fetched_at": "2026-08-24T02:29:19Z"
+  },
+  "s0md3v/roop": {
+    "stars": 3559,
+    "timestamp": 1787538560.2893825,
+    "fetched_at": "2026-08-24T02:29:20Z"
+  },
+  "LiheYoung/Depth-Anything": {
+    "stars": 8190,
+    "timestamp": 1787538560.8509197,
+    "fetched_at": "2026-08-24T02:29:20Z"
+  },
+  "alicevision/Meshroom": {
+    "stars": 12915,
+    "timestamp": 1787538561.417755,
+    "fetched_at": "2026-08-24T02:29:21Z"
+  },
+  "Stability-AI/stable-audio-tools": {
+    "stars": 3847,
+    "timestamp": 1787538562.5475922,
+    "fetched_at": "2026-08-24T02:29:22Z"
   }
 }
