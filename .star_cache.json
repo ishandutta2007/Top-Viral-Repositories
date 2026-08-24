@@ -1,0 +1,242 @@
+{
+  "openclaw/openclaw": {
+    "stars": 387277,
+    "timestamp": 1787537231.2782862,
+    "fetched_at": "2026-08-24T02:07:11Z"
+  },
+  "mattpocock/skills": {
+    "stars": 233951,
+    "timestamp": 1787537231.8473585,
+    "fetched_at": "2026-08-24T02:07:11Z"
+  },
+  "ollama/ollama": {
+    "stars": 179285,
+    "timestamp": 1787537232.3600914,
+    "fetched_at": "2026-08-24T02:07:12Z"
+  },
+  "mendableai/firecrawl": {
+    "stars": 171426,
+    "timestamp": 1787537232.8587477,
+    "fetched_at": "2026-08-24T02:07:12Z"
+  },
+  "langgenius/dify": {
+    "stars": 153295,
+    "timestamp": 1787537233.9057553,
+    "fetched_at": "2026-08-24T02:07:13Z"
+  },
+  "open-webui/open-webui": {
+    "stars": 149691,
+    "timestamp": 1787537234.4201086,
+    "fetched_at": "2026-08-24T02:07:14Z"
+  },
+  "comfyanonymous/ComfyUI": {
+    "stars": 129423,
+    "timestamp": 1787537234.9308243,
+    "fetched_at": "2026-08-24T02:07:14Z"
+  },
+  "vllm-project/vllm": {
+    "stars": 89812,
+    "timestamp": 1787537235.9642322,
+    "fetched_at": "2026-08-24T02:07:15Z"
+  },
+  "infiniflow/ragflow": {
+    "stars": 89098,
+    "timestamp": 1787537236.4892092,
+    "fetched_at": "2026-08-24T02:07:16Z"
+  },
+  "Mintplex-Labs/anything-llm": {
+    "stars": 65117,
+    "timestamp": 1787537237.0092003,
+    "fetched_at": "2026-08-24T02:07:17Z"
+  },
+  "unclecode/crawl4ai": {
+    "stars": 79256,
+    "timestamp": 1787537237.5129187,
+    "fetched_at": "2026-08-24T02:07:17Z"
+  },
+  "karpathy/nanochat": {
+    "stars": 57462,
+    "timestamp": 1787537238.0245068,
+    "fetched_at": "2026-08-24T02:07:18Z"
+  },
+  "BerriAI/litellm": {
+    "stars": 57089,
+    "timestamp": 1787537238.5420132,
+    "fetched_at": "2026-08-24T02:07:18Z"
+  },
+  "langchain-ai/langgraph": {
+    "stars": 40300,
+    "timestamp": 1787537239.0573933,
+    "fetched_at": "2026-08-24T02:07:19Z"
+  },
+  "microsoft/autogen": {
+    "stars": 60596,
+    "timestamp": 1787537239.5822704,
+    "fetched_at": "2026-08-24T02:07:19Z"
+  },
+  "CopilotKit/CopilotKit": {
+    "stars": 36989,
+    "timestamp": 1787537240.1192324,
+    "fetched_at": "2026-08-24T02:07:20Z"
+  },
+  "khoj-ai/khoj": {
+    "stars": 36682,
+    "timestamp": 1787537240.6074524,
+    "fetched_at": "2026-08-24T02:07:20Z"
+  },
+  "perplexityai/bumblebee": {
+    "stars": 4962,
+    "timestamp": 1787537241.1221013,
+    "fetched_at": "2026-08-24T02:07:21Z"
+  },
+  "predictiveexecution/predictive-execution": {
+    "stars": 1,
+    "timestamp": 1787537241.6515057,
+    "fetched_at": "2026-08-24T02:07:21Z"
+  },
+  "langchain-ai/langchain": {
+    "stars": 144848,
+    "timestamp": 1787537372.6887496,
+    "fetched_at": "2026-08-24T02:09:32Z"
+  },
+  "run-llama/llama_index": {
+    "stars": 51826,
+    "timestamp": 1787537373.1978,
+    "fetched_at": "2026-08-24T02:09:33Z"
+  },
+  "FlowiseAI/Flowise": {
+    "stars": 55386,
+    "timestamp": 1787537373.732953,
+    "fetched_at": "2026-08-24T02:09:33Z"
+  },
+  "langflow-ai/langflow": {
+    "stars": 153601,
+    "timestamp": 1787537374.2563908,
+    "fetched_at": "2026-08-24T02:09:34Z"
+  },
+  "crewAIInc/crewAI": {
+    "stars": 57522,
+    "timestamp": 1787537374.8205848,
+    "fetched_at": "2026-08-24T02:09:34Z"
+  },
+  "microsoft/semantic-kernel": {
+    "stars": 28482,
+    "timestamp": 1787537375.3480346,
+    "fetched_at": "2026-08-24T02:09:35Z"
+  },
+  "deepset-ai/haystack": {
+    "stars": 26294,
+    "timestamp": 1787537375.8630466,
+    "fetched_at": "2026-08-24T02:09:35Z"
+  },
+  "labring/FastGPT": {
+    "stars": 29426,
+    "timestamp": 1787537376.3788538,
+    "fetched_at": "2026-08-24T02:09:36Z"
+  },
+  "modelscope/agentscope": {
+    "stars": 29384,
+    "timestamp": 1787537376.929482,
+    "fetched_at": "2026-08-24T02:09:36Z"
+  },
+  "camel-ai/camel": {
+    "stars": 17626,
+    "timestamp": 1787537377.9519389,
+    "fetched_at": "2026-08-24T02:09:37Z"
+  },
+  "TaskingAI/TaskingAI": {
+    "stars": 5400,
+    "timestamp": 1787537378.4417639,
+    "fetched_at": "2026-08-24T02:09:38Z"
+  },
+  "TransformerOptimus/SuperAGI": {
+    "stars": 17662,
+    "timestamp": 1787537378.988691,
+    "fetched_at": "2026-08-24T02:09:38Z"
+  },
+  "microsoft/promptflow": {
+    "stars": 11225,
+    "timestamp": 1787537379.4899113,
+    "fetched_at": "2026-08-24T02:09:39Z"
+  },
+  "dataelement/bisheng": {
+    "stars": 11906,
+    "timestamp": 1787537380.021224,
+    "fetched_at": "2026-08-24T02:09:40Z"
+  },
+  "Ironclad/rivet": {
+    "stars": 4677,
+    "timestamp": 1787537380.530709,
+    "fetched_at": "2026-08-24T02:09:40Z"
+  },
+  "paul-gauthier/aider": {
+    "stars": 48434,
+    "timestamp": 1787537443.932447,
+    "fetched_at": "2026-08-24T02:10:43Z"
+  },
+  "continuedev/continue": {
+    "stars": 35604,
+    "timestamp": 1787537444.887692,
+    "fetched_at": "2026-08-24T02:10:44Z"
+  },
+  "cline/cline": {
+    "stars": 66729,
+    "timestamp": 1787537445.407659,
+    "fetched_at": "2026-08-24T02:10:45Z"
+  },
+  "RooVetGit/Roo-Cline": {
+    "stars": 24328,
+    "timestamp": 1787537445.9067035,
+    "fetched_at": "2026-08-24T02:10:45Z"
+  },
+  "All-Hands-AI/OpenHands": {
+    "stars": 84882,
+    "timestamp": 1787537446.9079237,
+    "fetched_at": "2026-08-24T02:10:46Z"
+  },
+  "princeton-nlp/SWE-agent": {
+    "stars": 20113,
+    "timestamp": 1787537447.8819594,
+    "fetched_at": "2026-08-24T02:10:47Z"
+  },
+  "geekan/MetaGPT": {
+    "stars": 69973,
+    "timestamp": 1787537448.8637142,
+    "fetched_at": "2026-08-24T02:10:48Z"
+  },
+  "OpenBMB/ChatDev": {
+    "stars": 34107,
+    "timestamp": 1787537449.806961,
+    "fetched_at": "2026-08-24T02:10:49Z"
+  },
+  "block/goose": {
+    "stars": 53331,
+    "timestamp": 1787537450.2775035,
+    "fetched_at": "2026-08-24T02:10:50Z"
+  },
+  "nus-apr/auto-code-rover": {
+    "stars": 3100,
+    "timestamp": 1787537451.255939,
+    "fetched_at": "2026-08-24T02:10:51Z"
+  },
+  "stitionai/devika": {
+    "stars": 19560,
+    "timestamp": 1787537452.2744043,
+    "fetched_at": "2026-08-24T02:10:52Z"
+  },
+  "plandex-ai/plandex": {
+    "stars": 15593,
+    "timestamp": 1787537452.7953122,
+    "fetched_at": "2026-08-24T02:10:52Z"
+  },
+  "Pythagora-io/gpt-pilot": {
+    "stars": 33685,
+    "timestamp": 1787537453.301342,
+    "fetched_at": "2026-08-24T02:10:53Z"
+  },
+  "smol-ai/developer": {
+    "stars": 12185,
+    "timestamp": 1787537453.804169,
+    "fetched_at": "2026-08-24T02:10:53Z"
+  }
+}
