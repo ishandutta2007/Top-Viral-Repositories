@@ -393,5 +393,90 @@
     "stars": 2493,
     "timestamp": 1787538483.96022,
     "fetched_at": "2026-08-24T02:28:03Z"
+  },
+  "Unstructured-IO/unstructured": {
+    "stars": 15338,
+    "timestamp": 1787538508.285803,
+    "fetched_at": "2026-08-24T02:28:28Z"
+  },
+  "VikParuchuri/marker": {
+    "stars": 39085,
+    "timestamp": 1787538508.8949802,
+    "fetched_at": "2026-08-24T02:28:28Z"
+  },
+  "opendatalab/MinerU": {
+    "stars": 78314,
+    "timestamp": 1787538510.0295913,
+    "fetched_at": "2026-08-24T02:28:30Z"
+  },
+  "facebookresearch/nougat": {
+    "stars": 10062,
+    "timestamp": 1787538510.614843,
+    "fetched_at": "2026-08-24T02:28:30Z"
+  },
+  "pymupdf/PyMuPDF": {
+    "stars": 10549,
+    "timestamp": 1787538511.2259254,
+    "fetched_at": "2026-08-24T02:28:31Z"
+  },
+  "VikParuchuri/surya": {
+    "stars": 21313,
+    "timestamp": 1787538511.8178666,
+    "fetched_at": "2026-08-24T02:28:31Z"
+  },
+  "DS4SD/docling": {
+    "stars": 65444,
+    "timestamp": 1787538512.9659276,
+    "fetched_at": "2026-08-24T02:28:32Z"
+  },
+  "quivrhq/megaparse": {
+    "stars": 7413,
+    "timestamp": 1787538514.0622194,
+    "fetched_at": "2026-08-24T02:28:34Z"
+  },
+  "ocrmypdf/OCRmyPDF": {
+    "stars": 34550,
+    "timestamp": 1787538514.6574254,
+    "fetched_at": "2026-08-24T02:28:34Z"
+  },
+  "tesseract-ocr/tesseract": {
+    "stars": 76133,
+    "timestamp": 1787538515.2798915,
+    "fetched_at": "2026-08-24T02:28:35Z"
+  },
+  "PaddlePaddle/PaddleOCR": {
+    "stars": 88168,
+    "timestamp": 1787538515.8464174,
+    "fetched_at": "2026-08-24T02:28:35Z"
+  },
+  "microsoft/unilm": {
+    "stars": 22194,
+    "timestamp": 1787538516.4260044,
+    "fetched_at": "2026-08-24T02:28:36Z"
+  },
+  "pdfminer/pdfminer.six": {
+    "stars": 7021,
+    "timestamp": 1787538517.4557512,
+    "fetched_at": "2026-08-24T02:28:37Z"
+  },
+  "jsvine/pdfplumber": {
+    "stars": 10687,
+    "timestamp": 1787538518.0764072,
+    "fetched_at": "2026-08-24T02:28:38Z"
+  },
+  "HKUDS/LightRAG": {
+    "stars": 39116,
+    "timestamp": 1787538518.6322246,
+    "fetched_at": "2026-08-24T02:28:38Z"
+  },
+  "IntelLabs/fastRAG": {
+    "stars": 1785,
+    "timestamp": 1787538519.178916,
+    "fetched_at": "2026-08-24T02:28:39Z"
+  },
+  "deanmalmgren/textract": {
+    "stars": 4696,
+    "timestamp": 1787538519.814283,
+    "fetched_at": "2026-08-24T02:28:39Z"
   }
 }
