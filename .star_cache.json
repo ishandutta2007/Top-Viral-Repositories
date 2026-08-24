@@ -1078,5 +1078,20 @@
     "stars": 7331,
     "timestamp": 1787542334.6426866,
     "fetched_at": "2026-08-24T03:32:14Z"
+  },
+  "xlang-ai/OpenAgents": {
+    "stars": 4858,
+    "timestamp": 1787542378.7789397,
+    "fetched_at": "2026-08-24T03:32:58Z"
+  },
+  "frdel/agent-zero": {
+    "stars": 18947,
+    "timestamp": 1787542379.338573,
+    "fetched_at": "2026-08-24T03:32:59Z"
+  },
+  "OpenBMB/XAgent": {
+    "stars": 8543,
+    "timestamp": 1787542380.4530184,
+    "fetched_at": "2026-08-24T03:33:00Z"
   }
 }
